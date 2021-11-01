@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <body>
+  <form>
+ <table>
+ <tr>
+ <td>Employee Name</td><td>:</td><td><input placeholder="Enter your name"></input></td></tr>
+
+  <tr><td>Employeee Location</td><td>:</td><td><textarea></textarea></td></tr>
+
+  <tr><td>Alternate Email ID</td><td>:</td><td><input pattern="[a-z]{10}[@]{1}[gmail.com]{1}" placeholder ="abc@gmail.com"></input></td></tr>
+
+  <tr><td>Mobile Number</td><td>:</td><td><input pattern="[9]{1}[0-9]{7}[78]{1}"></input></td></tr>
+
+  <tr><tr><td>Location of Visit</td><td>:</td><td><input type="radio"></input>Coimbatore<input type="radio">pune</input><input type="radio">Bangalore</input></td></tr>
+
+  <tr><td>Date of Visit</td><td>:</td><td><input  type="date" placeholder="mm-dd-yy" ></input></td></tr>
+  <tr><td>mode of Travel</td><td>:</td><td><select><option>road<option><option>rail</option><option>air</option></td></tr>
+  </table>
+  </form>
+ 
+  
+ </body>
+</html>
+  
+
